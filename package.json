@@ -1,23 +1,27 @@
 {
-  "name": "pinguo-web-component",
+  "name": "pinguo-web-ui",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist/index.umd.js",
   "description": "品果科技-前端UI库",
+  "author": "pinguo-web",
   "keywords": [
     "React",
     "components",
     "komens"
   ],
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pinguo-liuqiang/pinguo-ui.git"
   },
+  "bugs": {
+    "url": "https://github.com/pinguo-liuqiang/pinguo-ui/issues"
+  },
   "contributors": [
     "pinguo-liuqiang"
   ],
+  "license": "MIT",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
