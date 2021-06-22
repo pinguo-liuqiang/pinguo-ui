@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import './index.less';
 
 interface IProps {
@@ -7,7 +7,7 @@ interface IProps {
   className?: string;
 }
 
-const SectionTitle: FC<IProps> = ({ title, tips, className }) => {
+export default ({ title, tips, className }: IProps) => {
   return (
     <div className={'m-section-title ' + (className ? className : '')}>
       <div className="u-title">{title}</div>
@@ -15,5 +15,3 @@ const SectionTitle: FC<IProps> = ({ title, tips, className }) => {
     </div>
   );
 };
-
-export default SectionTitle;

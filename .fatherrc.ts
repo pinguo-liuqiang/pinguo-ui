@@ -4,7 +4,7 @@ export default {
   doc: {
     title: '品果-智能云中心-组件库',
     themeConfig: { mode: 'light' },
-    base: '/pinguo-web-ui',
+    // base: '/pinguo-web-ui',
   },
   extraBabelPlugins: [
     [
@@ -18,4 +18,6 @@ export default {
   ],
   extractCSS: true,
   lessInBabelMode: true,
+  lessInRollupMode: {},
+  runtimeHelpers: true,
 };
