@@ -1,1 +1,3 @@
-export { default as Button } from './components/Button';
+// import 'antd/dist/antd.less'
+
+export { default as NGSectionTitle } from './NGSectionTitle'
